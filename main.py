@@ -14,6 +14,5 @@ randomnumber = random.randint(1,8)
 _print("wow")
 _print("wo2w2")
 
-
-output_div.innerText = *printList, sep="\n"
-print(*printList, sep="\n")
+output_div.innerText = "\n".join(printList)
+print("\n".join(printList))
