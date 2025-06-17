@@ -15,6 +15,5 @@ _print("wow")
 _print("wo2w2")
 
 
-output_div.innerText = "mew" \
-"mew" \
-"mew"  
+output_div.innerText = *printList, sep="\n"
+print(*printList, sep="\n")
