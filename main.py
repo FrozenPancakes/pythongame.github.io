@@ -10,4 +10,4 @@ import random
 randomnumber = random.randint(1,8)
 
 _print("wow")
-_print("wo2w")
+_print("wo2w2")
