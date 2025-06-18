@@ -13,7 +13,7 @@ def reprint():
 #### ^^ HTML SETUP DO NOT TOUCH ^^ ####
 
 import random
-import pymsgbox
+import js
 
 _print("DEAD WEST")
 _print("Welcome to the Game")
@@ -34,6 +34,6 @@ _print("Good Luck!")
 _print(" ")
 _print("Type [y] to see Complex Instructions otherwise type [n] to Start")
 
-response = pymsgbox.prompt('What is your name?')
+js.alert("sub2ades")
 
 reprint()
