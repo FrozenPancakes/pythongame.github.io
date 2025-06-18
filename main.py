@@ -16,6 +16,7 @@ _print("be sure to sub 2 ades!!!")
 _print("if you don't i will steal ur kneecaps")
 _print(" ")
 
+_print("HOW TO PLAY")
 _print("The Goal of the Game: Reach 100km")
 _print("Raid Houses or Cities to get items to sell or keep in your Sack which contains 25kg worth of items")
 _print("You start off with a Crowbar that can be used to pry open House Doors and Kill Zombies")
