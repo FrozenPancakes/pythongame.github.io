@@ -14,7 +14,7 @@ def reprint():
 
 import random
 import js
-import time 
+import threading 
 
 _print("DEAD WEST")
 _print("Welcome to the Game")
@@ -37,11 +37,12 @@ _print("Type [yes] to see Complex Instructions otherwise type [no] to Start")
 
 reprint()
 
-time.sleep(3)
+threading.Timer(3, function).start()
 prompt = js.prompt("sub2ades?")
 
-if prompt == "yes":
-    printList = []
-    reprint()
-else:
-    js.alert("you suck idiot")
+def functionn():
+    if prompt == "yes":
+        printList = []
+        reprint()
+    else:
+        js.alert("you suck idiot")
