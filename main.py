@@ -1,5 +1,5 @@
 from pyscript import document
-output_div = document.querySelector(".textarea")
+output_div = document.querySelector("#textarea")
 
 printList = []
 
