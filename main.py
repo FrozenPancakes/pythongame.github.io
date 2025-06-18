@@ -38,9 +38,10 @@ _print("Type [yes] to see Complex Instructions otherwise type [no] to Start")
 reprint()
 
 threading.Timer(3, function).start()
-prompt = js.prompt("sub2ades?")
 
 def functionn():
+    prompt = js.prompt("sub2ades?")
+
     if prompt == "yes":
         printList = []
         reprint()
