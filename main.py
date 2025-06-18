@@ -12,7 +12,7 @@ def reprint():
 
 #### ^^ HTML SETUP DO NOT TOUCH ^^ ####
 
-import keyboard 
+from pynput.keyboard import Key, Listener
 import random
 
 _print("DEAD WEST")
@@ -38,11 +38,5 @@ reprint()
 
 waitForInput = False
 
-while waitForInput == False:
-    if keyboard.is_pressed("y"):
-        waitForInput = True 
-        printList = []
-
-        _print("sub2ades!!!!")
-        reprint()
+# while waitForInput == False:
 
