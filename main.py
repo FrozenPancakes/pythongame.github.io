@@ -35,7 +35,7 @@ _print("Good Luck!")
 _print(" ")
 _print("Type [yes] to see Complex Instructions otherwise type [no] to Start")
 
-time.sleep("0.5")
+time.sleep(0.5)
 prompt = js.prompt("sub2ades?")
 
 if prompt == "yes":
