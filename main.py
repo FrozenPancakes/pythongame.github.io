@@ -15,12 +15,7 @@ _print("Welcome to the Game")
 _print("be sure to sub 2 ades!!!")
 _print("if you don't i will steal ur kneecaps")
 _print("The year is 1884, the World has been taken over by an Zombie Apocolypse, the only safe spot is in Mexico exactly 100km away from you in the USA. You plan to travel there to be safe but the only way is through a train. You go to find a driver only to realize that they all turned into Zombies. You are on your own and have to find everything you need such as fuel. Good Luck")
-_print("How to Play" \
-"The Goal of the Game: Reach 100km" \
-"Raid Houses or Cities to get items to sell or keep in your Sack which contains 25kg worth of items" \
-"You start off with a Crowbar that can be used to pry open House Doors and Kill Zombies" \
-"Add Coal to the Furnace in the Train to add 'Ticks' of fuel" \
-"Good Luck")
+
 _print("Type 'y' to see Complex Instructions otherwise type n to Start")
 
 #### vv HTML SETUP DO NOT TOUCH vv ####
