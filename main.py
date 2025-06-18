@@ -13,8 +13,8 @@ def reprint():
 #### ^^ HTML SETUP DO NOT TOUCH ^^ ####
 
 import random
-import keyboard 
 import js
+import time 
 
 _print("DEAD WEST")
 _print("Welcome to the Game")
@@ -36,3 +36,15 @@ _print(" ")
 _print("Type [yes] to see Complex Instructions otherwise type [no] to Start")
 
 reprint()
+
+def something():
+    time.sleep(3)
+    prompt = js.prompt("sub2ades?")
+
+    if prompt == "yes":
+        printList = []
+        reprint()
+    else:
+        js.alert("you suck idiot")
+
+something()
