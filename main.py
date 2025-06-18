@@ -10,7 +10,7 @@ def _print(text): # USE THIS INSTEAD OF print() IF YOU WANT IT TO SHOW
 
 import random
 
-print("debug")
+print("debug2")
 
 _print("DEAD WEST")
 _print("Welcome to the Game")
