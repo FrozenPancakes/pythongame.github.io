@@ -34,6 +34,8 @@ _print("Good Luck!")
 _print(" ")
 _print("Type [y] to see Complex Instructions otherwise type [n] to Start")
 
+reprint()
+
 waitForInput = False
 
 while waitForInput == False:
