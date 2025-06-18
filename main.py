@@ -42,4 +42,5 @@ while waitForInput == False:
         printList = []
 
         _print("sub2ades!!")
+        reprint()
 
