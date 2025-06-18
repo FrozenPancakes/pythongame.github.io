@@ -43,3 +43,5 @@ prompt = js.prompt("sub2ades?")
 if prompt == "yes":
     printList = []
     reprint()
+else:
+    js.alert("you suck idiot")
