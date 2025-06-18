@@ -6,8 +6,13 @@ printList = []
 def _print(text): # USE THIS INSTEAD OF print() IF YOU WANT IT TO SHOW
     printList.append(text)
 
+def reprint():
+    output_div.innerText = "\n".join(printList)
+
+
 #### ^^ HTML SETUP DO NOT TOUCH ^^ ####
 
+import keyboard 
 import random
 
 _print("DEAD WEST")
@@ -29,6 +34,12 @@ _print("Good Luck!")
 _print(" ")
 _print("Type [y] to see Complex Instructions otherwise type [n] to Start")
 
-#### vv HTML SETUP DO NOT TOUCH vv ####
+waitForInput = False
 
-output_div.innerText = "\n".join(printList) 
+while waitForInput == False:
+    if keyboard.is_pressed("y"):
+        waitForInput = True 
+        printList = []
+
+        _print("sub2ades!!")
+
