@@ -9,7 +9,6 @@ def _print(text): # USE THIS INSTEAD OF print() IF YOU WANT IT TO SHOW
 #### ^^ HTML SETUP DO NOT TOUCH ^^ ####
 
 import random
-randomnumber = random.randint(1,8)
 
 _print("DEAD WEST")
 _print("Welcome to the Game")
@@ -19,4 +18,4 @@ _print("if you don't i will steal ur kneecaps")
 
 #### vv HTML SETUP DO NOT TOUCH vv ####
 
-output_div.innerText = "\n".join(printList)
+output_div.innerText = "\n".join(printList) 
