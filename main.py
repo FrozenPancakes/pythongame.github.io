@@ -14,6 +14,7 @@ def reprint():
 
 import random
 import js
+import time 
 
 _print("DEAD WEST")
 _print("Welcome to the Game")
@@ -34,6 +35,7 @@ _print("Good Luck!")
 _print(" ")
 _print("Type [y] to see Complex Instructions otherwise type [n] to Start")
 
-js.alert("sub2ades")
+time.sleep("0.5")
+js.prompt("sub2ades?")
 
 reprint()
