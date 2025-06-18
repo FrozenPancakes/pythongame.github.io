@@ -34,6 +34,6 @@ _print("Good Luck!")
 _print(" ")
 _print("Type [y] to see Complex Instructions otherwise type [n] to Start")
 
-pymsgbox.alert("sub2ades now!!")
+response = pymsgbox.prompt('What is your name?')
 
 reprint()
