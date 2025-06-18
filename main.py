@@ -11,8 +11,11 @@ def _print(text): # USE THIS INSTEAD OF print() IF YOU WANT IT TO SHOW
 import random
 randomnumber = random.randint(1,8)
 
-_print("wow")
-_print("wo2w2")
+_print("DEAD WEST")
+_print("Welcome to the Game")
+_print("be sure to sub 2 ades!!!")
+_print("if you don't i will steal ur kneecaps")
+
 
 #### vv HTML SETUP DO NOT TOUCH vv ####
 
