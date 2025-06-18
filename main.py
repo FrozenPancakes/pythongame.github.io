@@ -12,19 +12,7 @@ def reprint():
 
 #### ^^ HTML SETUP DO NOT TOUCH ^^ ####
 
-from pynput import Key, KeyCode, Listener, keyboard
 import random
-import time 
-
-waitForInput = False
-
-def on_key_press(key):
-    if key == KeyCode.from_char("y"):
-        printList = []
-        _print("sub2ades")
-        reprint()
-        waitForInput = True
-
 
 _print("DEAD WEST")
 _print("Welcome to the Game")
@@ -46,18 +34,3 @@ _print(" ")
 _print("Type [y] to see Complex Instructions otherwise type [n] to Start")
 
 reprint()
-
-keyboard_listener = keyboard.listener(
-    on_press=on_key_press
-)
-
-
-keyboard_listener.start()
-
-while waitForInput == False:
-    time.sleep()
-
-keyboard_listener.stop()
-keyboard_listener.join()
-
-
