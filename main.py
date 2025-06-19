@@ -34,10 +34,10 @@ _print("Add Coal to the Furnace in the Train to add 'Ticks' of fuel.")
 _print("Good Luck!")
 
 _print(" ")
-_print("Type [yes] to see Complex Instructions otherwise type [no] to Start")
+_print("Type [yes] to see Complex Instructions otherwise type [no] to Start Playing!!")
 
 reprint()
-
+e
 
 sleep(10)
 prompt = js.prompt("sub2ades?")
