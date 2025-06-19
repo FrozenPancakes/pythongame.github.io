@@ -7,6 +7,7 @@ def _print(text): # USE THIS INSTEAD OF print() IF YOU WANT IT TO SHOW
     printList.append(text)
 
 def reprint():
+    print("t")
     output_div.innerText = "\n".join(printList)
 
 
