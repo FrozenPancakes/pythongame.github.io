@@ -51,4 +51,4 @@ if prompt == "yes":
     printList = []
     reprint()
 elif prompt == "no":
-    js.alert("you suck")
+    js.alert("you suck and you should sub now")
