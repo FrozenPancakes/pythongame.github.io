@@ -15,6 +15,7 @@ def reprint():
 
 import random
 import js
+import keyboard 
 from time import sleep
 
 _print("DEAD WEST")
@@ -38,14 +39,13 @@ _print("Type [yes] to see Complex Instructions otherwise type [no] to Start Play
 
 reprint()
 
-sleep(10)
 prompt = js.prompt("sub2ades?")
 
 print(prompt)
 
 while prompt != "yes" or "no":
     print("wha")
-    prompt = js.prompt("invalid answer") 
+    prompt = js.prompt("sub2ades") 
 
 if prompt == "yes":
     printList = []
