@@ -37,7 +37,6 @@ _print(" ")
 _print("Type [yes] to see Complex Instructions otherwise type [no] to Start Playing!!")
 
 reprint()
-e
 
 sleep(10)
 prompt = js.prompt("sub2ades?")
