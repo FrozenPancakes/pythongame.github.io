@@ -42,6 +42,8 @@ reprint()
 sleep(10)
 prompt = js.prompt("sub2ades?")
 
+print(prompt)
+
 while prompt != "yes" or "no":
     print("wha")
     prompt = js.prompt("invalid answer") 
