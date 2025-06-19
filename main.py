@@ -43,12 +43,12 @@ sleep(10)
 prompt = js.prompt("sub2ades?")
 
 while prompt != "yes" or "no":
-    if prompt != "yes" or "no":
-        print("wha")
-        prompt = js.prompt("invalid answer") 
+    print("wha")
+    prompt = js.prompt("invalid answer") 
 
 if prompt == "yes":
     printList = []
+    _print("ades")
     reprint()
 elif prompt == "no":
     js.alert("you suck and you should sub now")
