@@ -43,6 +43,7 @@ prompt = js.prompt("sub2ades?")
 
 while not prompt:
     if prompt != "yes" or "no":
+        print("wha")
         prompt = js.prompt("invalid answer") 
 
 if prompt == "yes":
