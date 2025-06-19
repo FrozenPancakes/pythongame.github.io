@@ -38,11 +38,15 @@ _print("Type [yes] to see Complex Instructions otherwise type [no] to Start")
 reprint()
 
 
-sleep(3)
+sleep(10)
 prompt = js.prompt("sub2ades?")
 
-if prompt == "yes":
-    printList = []
-    reprint()
-else:
-    js.alert("you suck idiot")
+while not prompt:
+    if prompt == "yes":
+        printList = []
+        reprint()
+    elif prompt == "no":
+        js.alert("you suck idiot")
+    else:
+        prompt = js.prompt("invalid answer") 
+
