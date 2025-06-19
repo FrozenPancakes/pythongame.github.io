@@ -42,11 +42,11 @@ sleep(10)
 prompt = js.prompt("sub2ades?")
 
 while not prompt:
-    if prompt == "yes":
-        printList = []
-        reprint()
-    elif prompt == "no":
-        js.alert("you suck idiot")
-    else:
+    if prompt != "yes" or "no":
         prompt = js.prompt("invalid answer") 
 
+if prompt == "yes":
+    printList = []
+    reprint()
+elif prompt == "no":
+    js.alert("you suck")
