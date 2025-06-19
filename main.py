@@ -35,8 +35,6 @@ _print("Good Luck!")
 _print(" ")
 _print("Type [yes] to see Complex Instructions otherwise type [no] to Start")
 
-print(printList)
-
 reprint()
 
 
