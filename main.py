@@ -15,7 +15,6 @@ def reprint():
 
 import random
 import js
-import keyboard 
 from time import sleep
 
 _print("DEAD WEST")
