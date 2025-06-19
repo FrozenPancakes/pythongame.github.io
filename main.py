@@ -28,7 +28,7 @@ _print(" ")
 
 _print("HOW TO PLAY")
 _print("The Goal of the Game: Reach 100km.")
-_print("Raid Houses or Cities to get items to sell or keep in your Sack which contains 25kg worth of items.")
+_print("Raid Houses or Cities to get items to sell which you store in your Sack which contains 25kg worth of items.")
 _print("You start off with a Crowbar that can be used to pry open House Doors and Kill Zombies.")
 _print("Add Coal to the Furnace in the Train to add 'Ticks' of fuel.")
 _print("Good Luck!")
@@ -42,7 +42,7 @@ reprint()
 sleep(10)
 prompt = js.prompt("sub2ades?")
 
-while not prompt:
+while prompt != "yes" or "no":
     if prompt != "yes" or "no":
         print("wha")
         prompt = js.prompt("invalid answer") 
